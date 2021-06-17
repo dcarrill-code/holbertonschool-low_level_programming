@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>/*This line import the stdio lib*/
 #include <string.h>/*This line import the string lib*/
 int main(void){
   char string[20];
