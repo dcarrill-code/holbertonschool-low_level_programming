@@ -1,1 +1,1 @@
-This README explains the proyect
+This README explains the proyect.
