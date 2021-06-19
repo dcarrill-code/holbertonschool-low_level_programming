@@ -8,8 +8,13 @@
 
 int main(void)
 {
-char alphabet[30] = "abcdefghijklmnopqrstuvwxyz";
-putchar(alphabet, "\n");
+char alphabet;
 
+for(alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
+{
+putchar(alphabet);
+
+}
+putchar('\n');
 return (0);
 }
