@@ -1,17 +1,23 @@
 #include <stdio.h>
 
 /**
-* main - A function that show some numbers whit putchar
+* print - let putchar show the number
 *
-* Return: Returns the numbers from 0 to 9
+* @num: is the number to be shown
+*
+* Return: Returns the number translated
 */
 
 void print(int num)
 {
-putchar(num%10+ '0');
+putchar(num % 10 + '0');
 
 }
-
+/**
+* main - Show the number with the function print
+*
+* Return: return the numbers from 0 to 9
+*/
 int main(void)
 {
 int num;
