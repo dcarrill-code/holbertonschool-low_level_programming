@@ -3,7 +3,8 @@
 #include <time.h>
 /* more headers goes there */
 /**
-* main - This main fuction can tell when a number is greater than 5 or less than 6.
+* main - This main fuction can tell when a number is greater
+* than 5 or less than 6.
 *
 * Return: Returns a comparation of numbers
 */
