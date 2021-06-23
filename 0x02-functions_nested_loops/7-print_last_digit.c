@@ -3,7 +3,7 @@
 * print_last_digit - Show the last digit of a number
 * @r: this variable contains the number
 *
-* Returns: Returns the last digit of the number
+* Return: Returns the last digit of the number
 */
 
 int print_last_digit(int r)
