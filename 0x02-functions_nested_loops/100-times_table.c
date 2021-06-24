@@ -1,10 +1,11 @@
 #include "holberton.h"
 #include "stdio.h"
-
-
-
-
-
+/**
+* print_times_table - This function show the time tables to n
+* @n: The variable that has the limit
+*
+* Return: Returns the timetables to n
+*/
 void print_times_table(int n)
 {
 
