@@ -42,8 +42,11 @@ int multiples_of_5(int s5)
 */
 int main(void)
 {
-	int s3 = multiples_of_3(s3);
-	int s5 = multiples_of_5(s5);
+	int s3;
+	int s5;
+
+	s3 = multiples_of_3(s3);
+	s5 = multiples_of_5(s5);
 
 	printf("%d, \n", s3);
 	printf("%d, \n", s5);
