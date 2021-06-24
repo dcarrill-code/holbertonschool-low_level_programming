@@ -8,11 +8,10 @@
 */
 int multiples_of_3(int s3)
 {
-	int i, m5;
+	int i;
 
 	for (i = 3 ; i < 1024 ;)
 	{
-		m5 = i % 5;
 
 		if(i < 1024)
 		{
