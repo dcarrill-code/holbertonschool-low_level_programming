@@ -8,13 +8,20 @@
 */
 int multiples_of_3(int s3)
 {
-	int i;
+	int i, m5;
 
 	for (i = 3 ; i < 1024 ;)
 	{
+		m5 = i % 5;
+
+		if(i < 1024)
+		{
+			s3 += i;
+		}
+		printf("%d, ", i);
 		i += 3;
-		s3 += i;
 	}
+	printf("\n");
 	return (s3);
 }
 /**
@@ -29,14 +36,24 @@ int multiples_of_5(int s5)
 
 	for (i = 5 ; i < 1024 ;)
 	{
+		int m3;
+		m3 = i % 3;
+
+		if (i < 1024)
+			{
+				if (m3 != 0)
+			{
+				s5 += i;
+			}
+		}
+		printf("%d, ", i);
 		i += 5;
-		s5 += i;
 	}
+	printf("\n");
 	return (s5);
 }
 /**
 * main - this function show the sum of the multiples of 3 and 5
-*
 *
 * Return: Returns 0
 */
@@ -44,12 +61,13 @@ int main(void)
 {
 	int s3 = 0;
 	int s5 = 0;
+	int s;
 
 	s3 = multiples_of_3(s3);
 	s5 = multiples_of_5(s5);
 
-	printf("%d, \n", s3);
-	printf("%d, \n", s5);
+	s = s3 + s5;
+	printf("%d\n", s);
 
 	return (0);
 }
