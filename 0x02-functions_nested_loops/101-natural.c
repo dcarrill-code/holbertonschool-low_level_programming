@@ -17,10 +17,8 @@ int multiples_of_3(int s3)
 		{
 			s3 += i;
 		}
-		printf("%d, ", i);
 		i += 3;
 	}
-	printf("\n");
 	return (s3);
 }
 /**
@@ -45,10 +43,8 @@ int multiples_of_5(int s5)
 				s5 += i;
 			}
 		}
-		printf("%d, ", i);
 		i += 5;
 	}
-	printf("\n");
 	return (s5);
 }
 /**
