@@ -13,7 +13,7 @@ int main(void)
 	int fibo[50];
 	int i;
 
-
+	fibo[0] = 0;
 	for (i = 0; i <= 50 ; i++)
 	{
 		if (i == 0)
@@ -25,6 +25,7 @@ int main(void)
 			fibo[i] = fibo[i - 2] + fibo[i - 1];
 		}
 		printf("%d, ", fibo[i]);
-	return (0);
+
 	}
+	return (0);
 }
