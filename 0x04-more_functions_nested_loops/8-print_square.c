@@ -1,9 +1,10 @@
 #include "holberton.h"
-
-
-
-
-
+/**
+ * print_square - draw a square in the screen
+ * @size: is the limit of the square
+ *
+ *
+ */
 
 
 void print_square(int size)
