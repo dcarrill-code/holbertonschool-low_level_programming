@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include "stdio.h"
 /**
  * is_m3 - this function can tell if a number is mul of 3
  * @i: the variable to compare
