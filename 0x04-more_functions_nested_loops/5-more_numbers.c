@@ -3,9 +3,8 @@
  * more_numbers - Show the numbers from 0 to 14
  *
  *
- * Return: returns the numbers to 14
+ *
  */
-
 
 void more_numbers(void)
 {
