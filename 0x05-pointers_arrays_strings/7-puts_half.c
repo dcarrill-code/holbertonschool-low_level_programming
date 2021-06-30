@@ -17,11 +17,11 @@ void puts_half(char *str)
 	int i, l, mid;
 
 	l = string_length(str);
-	if (l % 2 == 0)
+	if ((l % 2) == 0)
 	{
 		mid = l / 2;
 	}
-	else
+	else if((l % 2) == 1)
 	{
 		mid = (l - 1) / 2;
 	}
