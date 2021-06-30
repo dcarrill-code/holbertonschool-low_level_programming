@@ -1,9 +1,12 @@
 #include "holberton.h"
 
-
-
-
-
+/**
+ * _atoi - this is my own custom atoi function
+ * @s: the pointer to edit
+ *
+ * Return: return a int value
+ *
+ */
 
 
 int _atoi(char *s)
@@ -28,7 +31,7 @@ int _atoi(char *s)
 
 		}
 
-		if (s[i] == '-')
+		else if (s[i] == '-')
 			y *= -1;
 
 
