@@ -1,5 +1,10 @@
 #include "holberton.h"
-
+/**
+ * string_length - this function defines the length of an array
+ * @str: the pointer to the string to count
+ *
+ * Return: returns the length of the string
+ */
 
 int string_length(char *str)
 {
@@ -10,7 +15,11 @@ int string_length(char *str)
 	return (con);
 
 }
-
+/**
+ * puts_half - this function cut a string in half
+ * @str: the pointer to the string to cut
+ *
+ */
 
 void puts_half(char *str)
 {
