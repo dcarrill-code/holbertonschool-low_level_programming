@@ -10,7 +10,7 @@ int string_length(char *str)
 {
 	int con = 0;
 
-	while(*(str + con) != '\0')
+	while (*(str + con) != '\0')
 		con++;
 	return (con);
 
@@ -37,7 +37,7 @@ void puts_half(char *str)
 	putchar('\n');
 
 	}
-	else if((l % 2) == 1)
+	else if ((l % 2) == 1)
 	{
 		mid = (l - 1) / 2;
 
