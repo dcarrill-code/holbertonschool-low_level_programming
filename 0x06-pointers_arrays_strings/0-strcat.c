@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
 * *_strcat - this function unite two strings
-* @*dest:
-* @*src:
+* @dest: This parameter gets the first string and return the union
+* @src: This parameter gets the second string
 *
 * Return: return the union of the two string
 */
@@ -25,5 +25,5 @@ char *_strcat(char *dest, char *src)
 
 	dest[l] = '\0';
 
-	return dest;
+	return (dest);
 }
