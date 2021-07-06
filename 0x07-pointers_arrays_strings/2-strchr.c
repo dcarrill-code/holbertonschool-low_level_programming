@@ -15,7 +15,7 @@ char *_strchr(char *s, char c)
 
 	if (s == '\0')
 	{
-		return (NULL);
+		return (0);
 	}
 
 	size = 0;
