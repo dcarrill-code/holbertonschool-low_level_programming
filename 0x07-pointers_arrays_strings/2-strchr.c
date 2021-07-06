@@ -13,11 +13,6 @@ char *_strchr(char *s, char c)
 	int i, size;
 	char *p = s;
 
-	if (s == '\0')
-	{
-		return (0);
-	}
-
 	size = 0;
 
 	for (i = 0 ; s[i] != '\0' ; i++)
