@@ -13,6 +13,11 @@ char *_strchr(char *s, char c)
 	int i, size;
 	char *p = s;
 
+	if(s == '\0')
+	{
+		return (NULL);
+	}
+
 	size = 0;
 
 	for (i = 0 ; s[i] != '\0' ; i++)
@@ -24,7 +29,7 @@ char *_strchr(char *s, char c)
 	{
 		if (s[i] != c)
 			i++;
-		else
+		else if (s[i] == c && s[i] != '\0')
 			p++;
 	}
 
