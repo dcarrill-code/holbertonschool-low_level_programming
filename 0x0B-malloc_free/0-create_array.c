@@ -1,10 +1,12 @@
 #include "holberton.h"
 #include <stdlib.h>
-
-
-
-
-
+/**
+ * create_array - This function create an array with malloc
+ * @size: this parameter is the size of the array
+ * @c: this is the letter to fill the array
+ *
+ * Return: returns the array or NULL if it doesnt work
+ */
 
 
 char *create_array(unsigned int size, char c)
@@ -15,7 +17,7 @@ char *create_array(unsigned int size, char c)
 
 	if (size != 0)
 	{
-		ptr = (char*)malloc(size * sizeof(int));
+		ptr = (char *)malloc(size * sizeof(char));
 
 		for (i = 0 ; i < size ; i++)
 		{
