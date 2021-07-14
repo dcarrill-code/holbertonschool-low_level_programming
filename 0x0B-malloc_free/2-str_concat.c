@@ -15,8 +15,6 @@ char *str_concat(char *s1, char *s2)
 	cop1 = s1;
 	cop2 = s2;
 	j = count = count1 = count2 = 0;
-	if (s1 != NULL && s2 != NULL)
-	{
 	while (*s1)
 	{
 		count1++;
@@ -28,9 +26,9 @@ char *str_concat(char *s1, char *s2)
 		s2++;
 	}
 	count = count1 + count2;
-	ptr = (char *)malloc(sizeof(char) * count);
-	if (ptr == NULL)
-		return (NULL);
+	ptr = (char *)malloc(sizeof(char) * count + 1);
+	if (ptr != NULL)
+	{
 	for (i = 0 ; i < count ; i++)
 	{
 		if (i < count1)
