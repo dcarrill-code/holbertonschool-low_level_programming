@@ -29,9 +29,16 @@ char *_strdup(char *str)
 
 		ptr = (char *)malloc(sizeof(char) * count);
 
+		if (ptr != NULL)
+		{
 		for (i = 0 ; i < count ; i++, j++)
 		{
 			ptr[i] = cop[j];
+		}
+		}
+		else
+		{
+			return (NULL);
 		}
 		return (ptr);
 	}
