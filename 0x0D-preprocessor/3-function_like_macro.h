@@ -1,5 +1,5 @@
-#ifndef _LIKE_MACRO_
-#define _LIKE_MACRO_
-#define ABS(X) (X < 0 ? (X * -1) : (X))
+#ifndef _ABSOLUTE_
+#define _ABSOLUTE_
+#define ABS(X) (X < 0 ? (X) * (-1) : (X))
 
 #endif
