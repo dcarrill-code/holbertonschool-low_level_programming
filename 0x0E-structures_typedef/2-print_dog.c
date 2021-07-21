@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
+#include <stddef.h>
 /**
  * print_dog - This funtion print the date of the struct dog
  * @d: the pointer to struct dog
@@ -7,7 +8,8 @@
  */
 void print_dog(struct dog *d)
 {
-
+	if (d != NULL)
+	{
 		if (d->name == NULL)
 			printf("Name: (nill)");
 		else
@@ -22,5 +24,5 @@ void print_dog(struct dog *d)
 			printf("Owner: (nill)");
 		else
 			printf("Owner: %s\n", d->owner);
-
+	}
 }
