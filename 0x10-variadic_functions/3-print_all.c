@@ -27,15 +27,12 @@ void print_all(const char * const format, ...)
 				case 'c':
 					printf("%c%s", va_arg(ls, int), coma);
 				break;
-
 				case 'i':
 					printf("%d%s", va_arg(ls, int), coma);
 				break;
-
 				case 'f':
 					printf("%f%s", va_arg(ls, double), coma);
 				break;
-
 				case 's':
 					str = va_arg(ls, char *);
 					if (str == NULL)
