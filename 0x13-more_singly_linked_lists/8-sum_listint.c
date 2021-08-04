@@ -3,7 +3,7 @@
  * sum_listint - this function sums the values of a linkedlist
  * @head: this parameter is the pointer to the head of the linkedlist
  *
- * Returns: returns the sum of all the elements of the linkedlist
+ * Return: returns the sum of all the elements of the linkedlist
  */
 
 int sum_listint(listint_t *head)
