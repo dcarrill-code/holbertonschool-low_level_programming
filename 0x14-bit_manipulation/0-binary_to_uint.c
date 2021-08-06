@@ -16,7 +16,8 @@ unsigned int binary_to_uint(const char *b)
 	{
 		while (b[i])
 		{
-			if ((isalpha(b[i]) != 0) && (b[i] > 1))
+			if ((isalpha(b[i]) != 0) && (b[i] > '1')
+					&& (b[i] < '0'))
 			{
 				return (0);
 			}
