@@ -26,7 +26,7 @@ unsigned int binary_to_uint(const char *b)
 		pow = 1;
 		while (i >= 0)
 		{
-			res += (b[i] - '0')*(pow);
+			res += (b[i] - '0') * (pow);
 			pow *= 2;
 			i--;
 		}
