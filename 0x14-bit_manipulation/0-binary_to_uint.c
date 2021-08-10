@@ -8,9 +8,8 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	int  i = 0, d, r, pow;
-	char *n;
-	long res;
+	int  i = 0, pow;
+	unsigned int res = 0;
 
 	if (b != NULL)
 	{
@@ -23,18 +22,16 @@ unsigned int binary_to_uint(const char *b)
 			}
 			i++;
 		}
+		i = i - 1;
 		pow = 1;
-		r = d = 0;
-		res = strtol(b, &n, 10);
-		while (res != 0)
+		while (i >= 0)
 		{
-			r = res % 10;
-			d = d + r * pow;
-			res = res / 10;
-			pow = pow * 2;
+			res += (b[i] - '0')*(pow);
+			pow *= 2;
+			i--;
 		}
 
-		return (d);
+		return (res);
 	}
 	return (0);
 }
