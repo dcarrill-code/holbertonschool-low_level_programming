@@ -1,6 +1,6 @@
 #include "main.h"
-/*
- * read_textfile - this file reads another file and prints the POSIX
+/**
+ * read_textfile - This file reads another file and prints the POSIX
  *					to the standard output
  *
  * @filename: the name of the file.
@@ -8,9 +8,6 @@
  *
  * Return: the number of letters it readed
  */
-
-
-
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 
