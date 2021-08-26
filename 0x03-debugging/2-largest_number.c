@@ -27,24 +27,19 @@ int largest_number(int a, int b, int c)
 	{
 		c *= -1;
 		negc += 1;
-
 	}
-
 	if (a >= b && b >= c)
 	{
 		largest = a;
 
 		if (nega == 1)
 			largest *= -1;
-
 	}
-
 	else if (b >= a && a >= c)
 	{
 		largest = b;
 		if (negb == 1)
 			largest *= -1;
-
 	}
 
 	else
@@ -52,8 +47,6 @@ int largest_number(int a, int b, int c)
 		largest = c;
 		if (negc == 1)
 			largest *= -1;
-
 	}
-
 	return (largest);
 }
