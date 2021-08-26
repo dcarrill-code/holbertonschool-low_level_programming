@@ -7,7 +7,6 @@
  * @letters: the number of letters the file has to read
  *
  * Return: the number of letters it readed
- *
  */
 
 
@@ -19,7 +18,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	char *buffer;
 
 
-	if(!filename)
+	if (!filename)
 		return (0);
 
 	op = open(filename, O_RDONLY);
