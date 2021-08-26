@@ -15,17 +15,14 @@ int largest_number(int a, int b, int c)
 	nega = negb = negc = 0;
 	if (a < 0)
 	{
-		a *= -1;
 		nega += 1;
 	}
 	if (b < 0)
 	{
-		b *= -1;
 		negb += 1;
 	}
 	if (c < 0)
 	{
-		c *= -1;
 		negc += 1;
 	}
 	if (a >= b && b >= c)
