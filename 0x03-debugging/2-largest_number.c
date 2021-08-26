@@ -25,14 +25,14 @@ int largest_number(int a, int b, int c)
 	{
 		negc += 1;
 	}
-	if (a >= b && b >= c)
+	if (a >= b && a >= c)
 	{
 		largest = a;
 
 		if (nega == 1)
 			largest *= -1;
 	}
-	else if (b >= a && a >= c)
+	else if (b >= a && b >= c)
 	{
 		largest = b;
 		if (negb == 1)
