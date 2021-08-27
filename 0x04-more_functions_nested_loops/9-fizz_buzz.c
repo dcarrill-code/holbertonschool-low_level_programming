@@ -78,7 +78,7 @@ int main(void)
 			if (i != 100)
 				printf("Buzz ");
 			else
-				printf("Buzz ");
+				printf("Buzz");
 		}
 		else if (is_m3(i) == 1)
 		{
