@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _isdigit - this function can tell when it gets a number
  * @c:is the variable to compare

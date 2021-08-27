@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_square - draw a square in the screen
  * @size: is the limit of the square

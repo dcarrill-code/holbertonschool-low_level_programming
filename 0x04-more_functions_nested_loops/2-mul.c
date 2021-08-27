@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * mul - this function multiplies two numbers
 * @a: this first variable to multiplie

@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
 * _isupper - this function show 1 if the letter is in uppercase 0 otherwise
 * @c: this is the letter to compare

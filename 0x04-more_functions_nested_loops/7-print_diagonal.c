@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_diagonal - print \ diagonaly
  * @n: the variable limit

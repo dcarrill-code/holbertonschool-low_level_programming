@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * print_line - This functio print a line to n number
 * @n: the number that the line gonna reach
