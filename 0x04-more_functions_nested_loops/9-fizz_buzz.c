@@ -75,7 +75,10 @@ int main(void)
 		}
 		else if (is_m5(i) == 1)
 		{
-			printf("Buzz ");
+			if (i != 100)
+				printf("Buzz ");
+			else
+				printf("Buzz ");
 		}
 		else if (is_m3(i) == 1)
 		{
